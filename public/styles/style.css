@@ -1,0 +1,55 @@
+/*WEB CONTENT ACCESSIBILITY GUIDELINES - chrome extensions called wave helps to improve accessibilty  https://webaim.org/  https://wave.webaim.org/  */
+@import url("https://fonts.googleapis.com/css2?family=Yomogi&family=Zen+Tokyo+Zoo&display=swap");
+
+body {
+    margin: 0;
+    background-color: rgb(253, 253, 253);
+    font-family: Yomogi, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(83, 83, 83);
+}
+
+.navBar {
+    background-color: rgb(43, 153, 226);
+    color: white;
+    padding: 1em;
+    display: flex;
+    place-content: space-between;
+}
+
+nav ul {
+    display: inline-flex;
+}
+
+nav ul li {
+    padding: 1em;
+    list-style-type: none;
+    color: white;
+}
+
+.navBar nav ul a {
+    text-decoration: none;
+}
+
+.main {
+    margin: 1em;
+}
+
+video {
+    margin-left: 1em;
+    border-radius: 10px;
+}
+
+.root {
+    background-color: rgb(172, 172, 172);
+    color: rgb(25, 0, 71);
+    max-width: 300px;
+    left: 0;
+    right: 0;
+    margin: 1em auto 1em auto;
+    padding: 0.4em;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 3px 22px 12px rgba(80, 80, 80, 0.2);
+    box-shadow: 2px 3px 22px 12px rgba(80, 80, 80, 0.2);
+
+}
